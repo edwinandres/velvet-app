@@ -1,0 +1,16 @@
+.error{
+    background-color: #dc3545;
+    width: 30%;
+}
+
+.success{
+    background-color: #198754;
+}
+
+.boton{
+    width: 10%;
+}
+
+.select{
+    width: 85%;
+}

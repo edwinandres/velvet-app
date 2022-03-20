@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/sistemainformacionsiatadesarrollo/static/css/main.3b7815f0.chunk.css",
+    "main.js": "/sistemainformacionsiatadesarrollo/build/main.1a760144.js",
+    "runtime-main.js": "/sistemainformacionsiatadesarrollo/build/bundle.f0f5edae.js",
+    "static/css/2.05880114.chunk.css": "/sistemainformacionsiatadesarrollo/static/css/2.05880114.chunk.css",
+    "build/2.27118b7b.js": "/sistemainformacionsiatadesarrollo/build/2.27118b7b.js",
+    "build/2.27118b7b.js.LICENSE.txt": "/sistemainformacionsiatadesarrollo/build/2.27118b7b.js.LICENSE.txt",
+    "index.html": "/sistemainformacionsiatadesarrollo/index.html",
+    "static/css/2.05880114.chunk.css.map": "/sistemainformacionsiatadesarrollo/static/css/2.05880114.chunk.css.map",
+    "static/css/main.3b7815f0.chunk.css.map": "/sistemainformacionsiatadesarrollo/static/css/main.3b7815f0.chunk.css.map",
+    "static/media/siata.9cae0109.png": "/sistemainformacionsiatadesarrollo/static/media/siata.9cae0109.png"
+  },
+  "entrypoints": [
+    "build/bundle.f0f5edae.js",
+    "static/css/2.05880114.chunk.css",
+    "build/2.27118b7b.js",
+    "static/css/main.3b7815f0.chunk.css",
+    "build/main.1a760144.js"
+  ]
+}

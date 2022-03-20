@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Generar build",
+  "steps": [
+    {
+      "file": ".env.development",
+      "description": "Se deben generar 2 builds, una para desarrollo y otra para produccion, basicamente porque\nambos entornos apuntan a dos bases de datos distintas\nPara generar la build de desarrollo descomentar la linea que lleva la palabra desarrollo.\nPara produccion es a la inversa.\n\nREACT_APP_HOMEPAGE = \"/sistemainformacionsiatadesarrollo/\"\nREACT_APP_URL_SERVICES = \"https://serviciossisat.siata.desarrollo/\"",
+      "line": 8,
+      "selection": {
+        "start": {
+          "line": 4,
+          "character": 1
+        },
+        "end": {
+          "line": 5,
+          "character": 68
+        }
+      }
+    },
+    {
+      "file": "package.json",
+      "description": "cambiar el proxy y el homepage, agregando o eliminando la palabra desarrollo al final\nsegun sea el caso",
+      "line": 8,
+      "selection": {
+        "start": {
+          "line": 5,
+          "character": 3
+        },
+        "end": {
+          "line": 6,
+          "character": 70
+        }
+      }
+    },
+    {
+      "file": "package.json",
+      "description": "Abrir la terminal y ejecutar npm run build",
+      "line": 10,
+      "title": "Terminal run build"
+    },
+    {
+      "file": "package.json",
+      "description": "Una vez se genere la build, se debe subir a orochi esta build\nAl ejecutar en la terminal el siguiente comando se realizara dicha accion\nEliminar o agregar la palabra desarrollo luego de sistemainformacionsiata  segun sea el caso\n\nrsync -avzt build/* appsiatainterno@192.168.1.60:/home/appsiatainterno/sistemainformacionsiatadesarrollo-app/build/",
+      "line": 11,
+      "title": "Terminal rsync"
+    }
+  ],
+  "ref": "SISAT-11IntegracionesFormularioEstacion"
+}

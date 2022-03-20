@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+html, body {
+  table-layout: fixed;
+  overflow-y: visible;
+  overscroll-behavior-y: auto;
+}
+
+.colorSiata {
+  background-color: #09202E;
+}
+
+.vl1 {
+  border-left: 3px solid rgb(255, 255, 255);
+  height: 800px;
+  /* position: absolute; */
+  /* left: 50%; */
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.vl2 {
+  border-left: 3px solid rgb(255, 255, 255);
+  height: 100px;
+  margin-right: 25px;
+}
+
+.texvertical {
+  margin-top: 18px;
+}
+
+.vertical-line{ width: 10px; /* Line width */;color:"white"; background-color: white; /* Line color */ height: 100%; /* Override in-line if you want specific height. */ float: left; /* Causes the line to float to left of content. You can instead use position:absolute or display:inline-block if this fits better with your design */ }
+

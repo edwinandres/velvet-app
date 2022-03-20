@@ -1,0 +1,81 @@
+{
+  "name": "velvet-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/velvet/",
+  "proxi": "https://192.168.1.60/sistemainformacionsiata/",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.1",
+    "datatable": "^2.0.2",
+    "datatables.net": "^1.10.25",
+    "datatables.net-bs4": "^1.10.23",
+    "datatables.net-responsive": "^2.2.6",
+    "datatables.net-responsive-bs4": "^2.2.6",
+    "formik": "^2.2.6",
+    "jquery": "^3.6.0",
+    "logrocket": "^2.0.0",
+    "react": "^17.0.1",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-color": "^2.19.3",
+    "react-datepicker": "^3.4.1",
+    "react-dom": "^17.0.1",
+    "react-input-colorpicker": "^1.0.13",
+    "react-redux": "^7.2.6",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-toastify": "^6.2.0",
+    "react-toastr": "^3.0.0",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "sweetalert2": "^10.14.0",
+    "sweetalert2-react-content": "^4.2.0",
+    "web-vitals": "^0.2.4",
+    "yup": "^0.32.8"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "cross-env NODE_ENV=development styleguidist build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^4.6.1",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-config-standard-jsx": "^10.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-standard": "^4.0.2",
+    "react-styleguidist": "^11.1.8",
+    "typescript": "^4.0.5"
+  }
+}

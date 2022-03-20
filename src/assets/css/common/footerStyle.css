@@ -1,0 +1,17 @@
+.social-list {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.social-list .soc-item {
+    margin: 0 .5rem;
+}
+
+.social-list .iconfont-social {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
